@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+th {
+    text-align: middle;
+}
+
+td {
+    vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+.center-max-size {
+    max-width: 1080px;
+    margin: 0 auto;
+    }
+    
+    .header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .brand {
+    font-size: 24px;
+    font-weight: bold;
+    }
+    
+    .form {
+    display: flex;
+    align-items: center;
+    }

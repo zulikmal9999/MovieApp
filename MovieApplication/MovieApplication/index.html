@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+    <title>Movie</title>
+</head>
+<body>
+    <header>
+        <button type="button" class="button" onclick="gHome()">Home</button>
+        <h3>Hello Movie</h3>
+ 
+        <form id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    </header>
+
+    <div id="tags">
+ 
+    </div>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content">
+        </div>
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8678;</a>
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8680;</a>
+    </div>
+
+    <!-- The overlay -->
+    <div id="detailNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content2"></div>
+    </div>
+
+
+
+    <main id="main">
+  
+    </main>
+
+    <div class="pagination">
+        <div class="page" id="prev">Previous</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next</div>
+        <!-- <div class="trybtn" id="tryBtn">Try</div> -->
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
